@@ -1,0 +1,217 @@
+# Copyright (C) 2025 DIY Calculator for Vaping
+# This file is distributed under the same license as the DIY Calculator for Vaping package.
+msgid ""
+msgstr ""
+"Project-Id-Version: DIY Calculator for Vaping 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/"
+"qs_tool_wp_pot_gen_1736949434_874_691142\n"
+"POT-Creation-Date: 2025-01-15 13:57:14+00:00\n"
+"PO-Revision-Date: 2025-01-15 15:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: diy-calculator.php:111
+msgid "Theme name cannot be empty"
+msgstr "لا يمكن أن يكون اسم القالب فارغاً"
+
+#: diy-calculator.php:112
+msgid "Are you sure you want to delete this theme?"
+msgstr "بيانات الألوان غير صالحة?"
+
+#: diy-calculator.php:147 diy-calculator.php:692
+msgid "Not enough space for flavors with current nicotine level."
+msgstr "لا توجد مساحة كافية للنكهات مع مستوى النيكوتين الحالي."
+
+#: diy-calculator.php:148 diy-calculator.php:693
+msgid "bottles"
+msgstr "زجاجات السائل"
+
+#: diy-calculator.php:149 diy-calculator.php:694
+msgid "bottles of 10ml each"
+msgstr "زجاجات سعة 10 مل"
+
+#: diy-calculator.php:179
+msgid "Nonce verification failed."
+msgstr "فشل عملية التحقق"
+
+#: diy-calculator.php:246
+msgid "The selected theme does not exist."
+msgstr "القالب المحدد غير موجود."
+
+#: diy-calculator.php:260 diy-calculator.php:390 diy-calculator.php:449
+msgid "Unauthorized action."
+msgstr "إجراء غير مسموح به."
+
+#: diy-calculator.php:283
+msgid "Invalid JSON data for colors."
+msgstr "بيانات JSON غير صالحة للألوان."
+
+#: diy-calculator.php:289 diy-calculator.php:297 diy-calculator.php:454
+msgid "Invalid colors data."
+msgstr "بيانات الألوان غير صالحة"
+
+#: diy-calculator.php:317
+msgid "Theme \"%s\" saved successfully."
+msgstr "تم حفظ القالب “%s” بنجاح."
+
+#: diy-calculator.php:340
+msgid "Colors applied to the active theme successfully."
+msgstr "تم تطبيق الألوان على القالب المحدد بنجاح."
+
+#: diy-calculator.php:350
+msgid "Theme \"%s\" applied successfully."
+msgstr "تم تطبيق القالب “%s” بنجاح."
+
+#: diy-calculator.php:352 diy-calculator.php:413
+msgid "Theme not found."
+msgstr "لم يتم العثور على القالب."
+
+#: diy-calculator.php:359
+msgid "Theme \"%s\" deleted successfully."
+msgstr "تم حذف القالب “%s” بنجاح."
+
+#: diy-calculator.php:361
+msgid "Cannot delete the Default theme."
+msgstr "لا يمكن حذف القالب الافتراضي."
+
+#: diy-calculator.php:364
+msgid "Invalid action."
+msgstr "إجراء غير صالح."
+
+#: diy-calculator.php:398
+msgid "Invalid theme name."
+msgstr "اسم القالب غير صالح."
+
+#: diy-calculator.php:408
+msgid "Theme deleted successfully."
+msgstr "تم حذف القالب بنجاح."
+
+#: diy-calculator.php:502
+msgid "DIY Calculator Settings"
+msgstr "إعدادات حاسبة الـ DIY"
+
+#: diy-calculator.php:503
+msgid "Customize the colors and manage your themes."
+msgstr "تخصيص الألوان وإدارة القوالب الخاصة بك."
+
+#: diy-calculator.php:508
+msgid "Settings have been saved successfully!"
+msgstr "تم حفظ الإعدادات بنجاح!"
+
+#: diy-calculator.php:514
+msgid "An error occurred: %s"
+msgstr "حدث خطأ: %s"
+
+#: diy-calculator.php:544
+msgid "Apply to current theme"
+msgstr "تطبيق على القالب الحالي"
+
+#: diy-calculator.php:545
+msgid "Apply these settings to the current theme."
+msgstr "تطبيق هذه الإعدادات على القالب الحالي."
+
+#: diy-calculator.php:547 diy-calculator.php:626
+msgid "Apply"
+msgstr "تطبيق"
+
+#: diy-calculator.php:553
+msgid "Save as new theme (optional)"
+msgstr "حفظ كقالب جديد (اختياري)"
+
+#: diy-calculator.php:555
+msgid "Enter a name to save your current settings as a theme."
+msgstr "أدخل اسمًا لحفظ إعداداتك الحالية كقالب."
+
+#: diy-calculator.php:560
+msgid "Save theme"
+msgstr "حفظ القالب"
+
+#: diy-calculator.php:565
+msgid "Shortcode usage"
+msgstr "استخدام الـ Shortcode"
+
+#: diy-calculator.php:567
+msgid ""
+"Simply copy and paste this shortcode into your page or article to display "
+"the DIY calculator to your visitors."
+msgstr ""
+"ما عليك سوى نسخ هذا الـ shortcode ولصقه في صفحتك أو مقالتك لعرض حاسبة DIY "
+"لزوارك."
+
+#: diy-calculator.php:576
+msgid "Live Preview"
+msgstr "المعاينة المباشرة"
+
+#: diy-calculator.php:585
+msgid "Saved Themes"
+msgstr "القوالب المحفوظة"
+
+#: diy-calculator.php:614
+msgid "Current theme"
+msgstr "القالب الحالي"
+
+#: diy-calculator.php:634
+msgid "Delete"
+msgstr "حذف"
+
+#: diy-calculator.php:642
+msgid "No themes available."
+msgstr "لا يوجد قوالب متاحة."
+
+#: diy-calculator.php:734
+msgid "Enter your values"
+msgstr "أدخل القيم"
+
+#: diy-calculator.php:741
+msgid "Total Volume"
+msgstr "الحجم الإجمالي"
+
+#: diy-calculator.php:746
+msgid "Target Nicotine Strength"
+msgstr "نسبة النيكوتين المستهدفة"
+
+#: diy-calculator.php:753
+msgid "Flavors Concentrate"
+msgstr "تركيز النكهات"
+
+#: diy-calculator.php:763
+msgid "Recipe Results"
+msgstr "نتائج الوصفة"
+
+#: diy-calculator.php:765 diy-calculator.php:782
+msgid "Base"
+msgstr "سائل القاعدة"
+
+#: diy-calculator.php:766
+msgid "Boosters"
+msgstr "معزز النيكوتين"
+
+#: diy-calculator.php:767 diy-calculator.php:790
+msgid "Flavors"
+msgstr "النكهات"
+
+#: diy-calculator.php:776
+msgid "Your mix"
+msgstr "الخلطة الخاصة بك"
+
+#: diy-calculator.php:786
+msgid "Nicotine"
+msgstr "النيكوتين"
+
+#. Plugin Name of the plugin/theme
+msgid "DIY Calculator for Vaping"
+msgstr "حاسبة الـ DIY لسوائل السجائر الالكترونية"
+
+#. Description of the plugin/theme
+msgid "A DIY calculator for vaping e-liquid made with Bootstrap and JQuery."
+msgstr ""
+"حاسبة الـ DIY للسائل الإلكتروني تم متصميمها باستخدام Bootstrap و JQuery."
+
+#. Author of the plugin/theme
+msgid "Vaping Post"
+msgstr "‫Vaping Post"

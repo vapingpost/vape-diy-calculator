@@ -1,0 +1,26 @@
+.themes-form{display: inline;}
+.theme_name{float: left;min-width: 200px;}
+.theme-colors {
+    display: flex;
+    float: left;
+    width: 60px; /* Taille fixe pour le rectangle */
+    height: 20px;
+    border-radius: 8px; /* Bords arrondis */
+    overflow: hidden; /* Assurez-vous que les bords restent ronds */
+    margin-top: 2px;
+}
+
+.theme-colors .color-block {
+    flex: 1; /* Chaque bloc occupe un tiers */
+    margin: 0; /* Pas d'espace entre les blocs */
+}
+.is-invalid {
+    border-color: #dc3545; /* Rouge Bootstrap */
+}
+#cr{display: none;}
+.range-section .form-range::-webkit-slider-thumb, .range-section .form-range::-moz-range-thumb{background-color: #44546f !important;}
+.text-muted{
+  line-height: 15px !important;
+  float: left;
+  margin-bottom: 20px;
+}

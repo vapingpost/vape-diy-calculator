@@ -1,0 +1,363 @@
+/* global colors */
+:root {
+    --color-base: rgba(110, 93, 198, 1); /* var(--color-base) */
+    --color-nicotine: rgba(170,26,140,0.61); /* var(--color-nicotine) */
+    --color-aroma: rgba(191,0,0,1); /* var(--color-aroma) */
+}
+.range-section{
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  padding: 15px 10px 15px 10px;
+  transition: box-shadow 0.3s ease-in-out;
+  background: white;
+}
+.range-section:hover, .res-col:hover{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 30px -5px, rgba(0, 0, 0, 0.3) 0px 9px 17px -18px;
+}
+.range-section .form-range::-webkit-slider-thumb, .range-section .form-range::-moz-range-thumb{
+	width:20px;
+	height: 20px;
+	border: 5px solid rgba(255, 255, 255, 0.8);
+	border-radius: 50%;
+	transition: width 0.2s ease, height 0.2s ease, border 0.2s ease; 
+}
+.range-section .form-range:hover::-webkit-slider-thumb, .range-section .form-range:hover::-moz-range-thumb{
+	width:25px;
+	height: 25px;
+	border: none;
+}
+.res-col {
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.res-label{
+	display: inline-block;
+  background: white;
+  border-radius: 10px;
+  padding: 4px 13px 4px 13px;
+  font-size: 0.8em;
+  color: #666;
+  font-weight: 200;
+  margin-top: 10px;
+}
+.res-value{
+	font-weight: 900;
+  font-size: 2.5em;
+  display: inline-block;
+  margin-top: 15px;
+  color: #666;
+  text-shadow: 0px 1px #fff;
+}
+.res-value-bottle{display: inline-block; font-size: 11px;}
+.ml{text-transform: uppercase;display: block;}
+.visual-legend-simple {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    gap: 10px; /* Espacement entre les légendes */
+}
+#total-volume-display .range-total{}
+#nicotine-level-display .range-nicotine{}
+#aroma-percent-display .range-aroma{}
+#total-volume-display.range-neutral{background: #777;}
+#base-amount .res-label {
+  background: var(--color-base) !important;
+  color: white;
+}
+#booster-amount .res-label, #nicotine-level-display.range-nicotine {
+  background: var(--color-nicotine) !important;
+  color: white;
+}
+#aroma-amount .res-label, #aroma-percent-display.range-aroma {
+  background: var(--color-aroma) !important;
+  color: white;
+}
+
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espacement entre le carré et le texte */
+}
+
+.legend-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.legend-text {
+    font-size: 12px;
+    color: #333;
+}
+
+.flask-visual {
+    width: 100px;
+    height: 200px;
+    border: 1px solid #ccc;
+    position: relative; /* Permet à chaque segment de se positionner en fonction du conteneur */
+    margin: 0 auto;
+    background: #f9f9f9;
+    overflow: hidden; /* Empêche les débordements des divs internes */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    z-index: 2;
+}
+.visualization-wrapper:after{
+	content:"";
+	width:2px;
+	height: 100%;
+	display: inline-lock;
+	background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 0%, /* Transparent au début */
+        rgba(255, 255, 255, 1) 50%, /* Blanc au centre */
+        rgba(255, 255, 255, 0) 100% /* Transparent à la fin */
+    );
+	position: absolute;
+	right: 30%;
+	top:0;
+}
+.visualization-wrapper:before{
+  content: "";
+  display: inline-block;
+  width: 44px;
+  height: 29px;
+  border: 1px solid #d7d7d7;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+}
+.flask-visual > div {
+    position: absolute; /* Assure le positionnement relatif au conteneur */
+    width: 100%; /* Chaque segment occupe toute la largeur */
+}
+#back-ml {
+  font-size: 55px;
+  font-weight: 800;
+  color: #ddd;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  right:0;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+#back-ml:after{
+	content: "ML";
+  color: #ddd;
+  font-size: 14px;
+}
+
+.nicotine-badge {
+  position: absolute;
+  right: 0;
+  bottom: 17%;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  background: white;
+  border: 2px solid #333; /* Couleur de la bordure */
+  border-radius: 25px; /* Bord arrondi pour un effet capsule */
+  overflow: hidden; /* Pour s'assurer que rien ne déborde */
+  font-weight: bold;
+  font-size: 12px; /* Taille de la police */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour un effet flottant */
+}
+html[dir="rtl"] .nicotine-badge{left:0; right: inherit;}
+
+.nicotine-value {
+  background: #333; /* Couleur bleue pour la partie gauche */
+  color: white;
+  padding: 5px 10px 5px 10px; /* Espacement autour du texte */
+  text-align: center;
+  flex-shrink: 0; /* S'assure que cette partie ne rétrécit pas */
+}
+
+.nicotine-unit {
+  color: #333; /* Texte bleu pour la partie droite */
+  padding: 5px 10px 5px 10px; /* Espacement autour du texte */
+  text-align: center;
+  white-space: nowrap; /* Empêche le texte de se couper */
+}
+
+.legend-base{
+	background: var(--color-base);
+}
+.legend-nicotine{
+	background: var(--color-nicotine);
+}
+.legend-aroma{
+	background: var(--color-aroma);
+}
+#aroma-visual, #nicotine-visual, #base-visual {
+    transition: height 0.5s ease, background-color 0.5s ease, bottom 0.5s ease; /* Transition douce */
+}
+
+#base-visual {
+    bottom: 0; /* La base est toujours en bas */
+}
+
+#nicotine-visual {
+    bottom: calc(0% + var(--base-height)); /* Positionné juste au-dessus de la base */
+}
+
+#aroma-visual {
+    bottom: calc(0% + var(--base-height) + var(--nicotine-height)); /* Positionné au-dessus de la nicotine */
+}
+
+.volume-total-label {
+    position: absolute;
+    top: -25px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+.btn.btn-outline-primary.bg-discovery {
+  color: white;
+  border: none;
+}
+.btn.btn-outline-primary.bg-discovery:hover, .btn.btn-outline-primary.bg-discovery.active {
+  background-color: #fff !important;
+  color: #333;
+}
+input[type="radio"].form-check-input{
+	width:15px;
+}
+
+.title-settings, .title-results{font-size: 15px; font-weight: bold;margin-bottom: 20px;}
+.list-results{
+/*background: rgb(238, 235, 251);
+padding: 25px;
+border:1px solid rgb(238, 235, 251);
+border-radius: 10px;*/
+}
+.list-results .p-2{border-radius: 10px;background: white;min-height: 150px;}
+/* effects */
+#cr a {
+  font-size: 10px;
+  color: #cacaca;
+  float: right;
+  margin-top: 10px;
+}
+
+#base-visual::before  {
+  content: "";
+  width: 150%;
+  height: 80%;
+  background-color: rgba(255,255,255,1);
+  position: absolute;
+  top: -77%;
+  left: -25%;
+  border-radius: 40%;
+  animation: anim 18s linear infinite;
+}
+
+#base-visual::after {
+  content: "";
+  width: 155%;
+  height: 85%;
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  top: -80%;
+  left: -26%;
+  border-radius: 40%;
+  animation: anim 18s linear infinite;
+    animation-delay: 0s;
+  animation-delay: 1s;
+}
+.mix-res{padding-right: 0 !important;}
+html[dir="rtl"] .mix-res{padding-right: 20px !important; padding-left:0 !important;}
+html[dir="rtl"] .rec-res{padding-right: 0 !important;}
+
+.glass-reflection {
+  pointer-events: none; /* Éviter toute interaction utilisateur */
+  mix-blend-mode: overlay; /* Assure un mélange avec le contenu en arrière-plan */
+  position: absolute; /* Positionnement absolu pour couvrir l'élément parent */
+  overflow: hidden; /* Masque le contenu qui dépasse */
+  inset: 0; /* S'étend sur toute la zone de l'élément parent */
+}
+
+.glass-reflection:before {
+  content: "";
+  position: absolute;
+  inset: 0; /* S'étend sur toute la zone de l'élément parent */
+  background: 
+    linear-gradient(
+      to right,
+      hsla(0, 0%, 100%, 0.5),
+      hsla(0, 0%, 100%, 0.5)
+    ) no-repeat,
+    linear-gradient(
+      to right,
+      hsla(0, 0%, 100%, 0.5),
+      hsla(0, 0%, 100%, 0.1)
+    ) no-repeat;
+  background-size: 0.5vmin 19vmin, 1.8vmin 21vmin; /* Taille des gradients */
+  background-position: 1vmin 3vmin, 3vmin 2vmin; /* Positionnement des gradients */
+  filter: blur(0.5vmin); /* Douceur de la réflexion */
+  opacity: 0.7;
+}
+
+.glass-reflection:after {
+  content: "";
+  position: absolute;
+  inset: 0; /* S'étend sur toute la zone de l'élément parent */
+  background: 
+    radial-gradient(
+      4vmin 14vmin at 1vmin 20%,
+      hsla(0, 0%, 100%, 0.3) 10%,
+      transparent 50%
+    ),
+    radial-gradient(
+      2vmin 2vmin at 2vmin 5%,
+      hsla(0, 0%, 100%, 0.9),
+      transparent
+    ),
+    radial-gradient(
+      7vmin 7vmin at 2vmin 5%,
+      hsla(0, 0%, 100%, 0.9),
+      transparent
+    );
+    opacity: 0.7;
+}
+
+.blurring {
+    filter: blur(2px); /* Niveau de flou */
+    transition: filter 0.2s ease; /* Transition pour un effet fluide */
+}
+
+    @media (max-width: 767px) {
+	    
+	    .mix-res{
+		    padding-right: 0 !important;
+			padding-left: 0 !important;
+			margin-top: 10px !important;
+	    }
+	    .rec-res {
+		padding-right: 0 !important;
+		}
+	    
+    }
+  
+/*
+@keyframes anim {
+  0% {
+    transform: translateX(0px) 
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}*/

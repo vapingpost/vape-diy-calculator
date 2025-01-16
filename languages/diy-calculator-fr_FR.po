@@ -1,0 +1,235 @@
+# Copyright (C) 2025 DIY Calculator for Vaping
+# This file is distributed under the same license as the DIY Calculator for Vaping package.
+msgid ""
+msgstr ""
+"Project-Id-Version: DIY Calculator for Vaping 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/qs_tool_wp_pot_gen_1736773767_6731_920063\n"
+"POT-Creation-Date: 2025-01-13 13:09:27+00:00\n"
+"PO-Revision-Date: 2025-01-16 16:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: diy.php:102
+msgid "Theme name cannot be empty"
+msgstr "Le nom du thème ne peut pas être vide"
+
+#: diy.php:103
+msgid "Are you sure you want to delete this theme?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce thème ?"
+
+#: diy.php:138 diy.php:678
+msgid "Not enough space for flavors with current nicotine level."
+msgstr "Pas assez d’espace pour les arômes avec le niveau de nicotine actuel."
+
+#: diy.php:139 diy.php:679
+msgid "bottles"
+msgstr "flacons"
+
+#: diy.php:140 diy.php:680
+msgid "bottles of 10ml each"
+msgstr "flacons de 10ml chacun"
+
+#: diy.php:170
+msgid "Nonce verification failed."
+msgstr "Vérification du nonce échouée."
+
+#: diy.php:220
+msgid "Base color"
+msgstr "Couleur de la base"
+
+#: diy.php:221
+msgid "Nicotine color"
+msgstr "Couleur de la nicotine"
+
+#: diy.php:222
+msgid "Flavors color"
+msgstr "Couleur des arômes"
+
+#: diy.php:237
+msgid "The selected theme does not exist."
+msgstr "Le thème sélectionné n’existe pas."
+
+#: diy.php:251 diy.php:381 diy.php:440
+msgid "Unauthorized action."
+msgstr "Action non autorisée."
+
+#: diy.php:274
+msgid "Invalid JSON data for colors."
+msgstr "Données JSON invalides pour les couleurs."
+
+#: diy.php:280 diy.php:288 diy.php:445
+msgid "Invalid colors data."
+msgstr "Données de couleurs invalides."
+
+#: diy.php:308
+msgid "Theme \"%s\" saved successfully."
+msgstr "Le thème “%s” a bien été sauvegardé."
+
+#: diy.php:331
+msgid "Colors applied to the active theme successfully."
+msgstr "Les couleurs ont été correctement appliquées au thème courant."
+
+#: diy.php:341
+msgid "Theme \"%s\" applied successfully."
+msgstr "Le thème “%s” a été correctement appliqué."
+
+#: diy.php:343 diy.php:404
+msgid "Theme not found."
+msgstr "Thème introuvable."
+
+#: diy.php:350
+msgid "Theme \"%s\" deleted successfully."
+msgstr "Le thème “%s” a été correctement supprimé."
+
+#: diy.php:352
+msgid "Cannot delete the Default theme."
+msgstr "Vous ne pouvez pas supprimer le thème par défaut."
+
+#: diy.php:355
+msgid "Invalid action."
+msgstr "Action invalide."
+
+#: diy.php:389
+msgid "Invalid theme name."
+msgstr "Nom de thème invalide."
+
+#: diy.php:399
+msgid "Theme deleted successfully."
+msgstr "Le thème a été correctement supprimé."
+
+#: diy.php:493
+msgid "DIY Calculator Settings"
+msgstr "Paramètres du calculateur DIY"
+
+#: diy.php:494
+msgid "Customize the colors and manage your themes."
+msgstr "Personnaliser les couleurs et gérer les thèmes."
+
+#: diy.php:499
+msgid "Settings have been saved successfully!"
+msgstr "Les paramètres ont été correctement sauvegardé !"
+
+#: diy.php:505
+msgid "An error occurred: %s"
+msgstr "Erreur : %s"
+
+#: diy.php:535
+msgid "Apply to current theme"
+msgstr "Appliquer au thème courant"
+
+#: diy.php:536
+msgid "Apply these settings to the current theme."
+msgstr "Appliquer ces paramètres au thème courant."
+
+#: diy.php:538 diy.php:612
+msgid "Apply"
+msgstr "Appliquer"
+
+#: diy.php:544
+msgid "Save as new theme (optional)"
+msgstr "Sauvegarder en tant que nouveau thème"
+
+#: diy.php:546
+msgid "Enter a name to save your current settings as a theme."
+msgstr "Entrer un nom pour le nouveau thème."
+
+#: diy.php:551
+msgid "Save theme"
+msgstr "Sauvegarder le thème"
+
+#: diy.php:556
+msgid "Shortcode usage"
+msgstr "Utilisation du shortcode"
+
+#: diy.php:558
+msgid "Simply copy and paste this shortcode into your page or article to display the DIY calculator to your visitors."
+msgstr "Copiez puis collez simplement ce code dans votre page ou article afin d'afficher le calculateur DIY pour vos visiteurs."
+
+#: diy.php:562
+msgid "Live Preview"
+msgstr "Prévisualisation en direct"
+
+#: diy.php:571
+msgid "Saved Themes"
+msgstr "Thèmes sauvegardés"
+
+#: diy.php:578
+msgid "Apply these settings to the current theme (%s)."
+msgstr "Appliquez ces paramètres au thème actuel (%s)."
+
+#: diy.php:600
+msgid "Current theme"
+msgstr "Thème courant"
+
+#: diy.php:616
+msgid "Copy"
+msgstr "Copier"
+
+#: diy.php:628
+msgid "Shortcode copied to clipboard!"
+msgstr "Le shortcode a bien été copié dans le presse-papiers !"
+
+#: diy.php:620
+msgid "Delete"
+msgstr "Supprimer"
+
+#: diy.php:628
+msgid "No themes available."
+msgstr "Aucun thème disponible."
+
+#: diy.php:720
+msgid "Enter your values"
+msgstr "Entrez vos valeurs"
+
+#: diy.php:727
+msgid "Total Volume"
+msgstr "Volume total"
+
+#: diy.php:732
+msgid "Target Nicotine Strength"
+msgstr "Taux de nicotine souhaité"
+
+#: diy.php:739
+msgid "Flavors Concentrate"
+msgstr "Concentré d’arômes"
+
+#: diy.php:749
+msgid "Recipe Results"
+msgstr "Résultat de la recette"
+
+#: diy.php:751 diy.php:766
+msgid "Base"
+msgstr "Base"
+
+#: diy.php:752
+msgid "Boosters"
+msgstr "Boosters"
+
+#: diy.php:753 diy.php:774
+msgid "Flavors"
+msgstr "Arômes"
+
+#: diy.php:760
+msgid "Your mix"
+msgstr "Votre mix"
+
+#: diy.php:770
+msgid "Nicotine"
+msgstr "Nicotine"
+
+#. Plugin Name of the plugin/theme
+msgid "DIY Calculator for Vaping"
+msgstr "Calculateur DIY pour la vape"
+
+#. Description of the plugin/theme
+msgid "A DIY calculator for vaping e-liquid made with Bootstrap and JQuery."
+msgstr "Un calculateur DIY pour la vape proposé par le Vaping Post."
+
+#. Author of the plugin/theme
+msgid "Vaping Post"
+msgstr "Vaping Post"
