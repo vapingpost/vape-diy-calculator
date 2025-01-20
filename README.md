@@ -1,4 +1,4 @@
-# vape-diy-calculator
+# Vape DIY calculator
 A vape DIY calculator plugin for Wordpress
 
 ![vape-diy-calculator](https://github.com/user-attachments/assets/84a68a05-da73-4948-b4fb-3c3547df1921)
