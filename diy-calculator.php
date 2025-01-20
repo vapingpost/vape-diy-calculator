@@ -908,7 +908,7 @@ function diy_calculator_shortcode() {
                
 
                 <div class="mb-3 range-section">
-                    <label for="aroma-percent" class="form-label"><?php _e('Flavors Concentrate', 'diy-calculator'); ?> : <span id="aroma-percent-display" class="badge text-bg-primary  range-aroma">1.2%</span></label><input id="aroma-percent" type="range" min="0" max="10" step="0.1" value="1.2" class="form-range">
+                    <label for="aroma-percent" class="form-label"><?php _e('Flavors Concentrate', 'diy-calculator'); ?> : <span id="aroma-percent-display" class="badge text-bg-primary  range-aroma">1.2%</span></label><input id="aroma-percent" type="range" min="0" max="20" step="0.1" value="1.2" class="form-range">
                     
                 </div>
             </div>
