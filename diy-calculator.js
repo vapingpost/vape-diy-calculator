@@ -178,9 +178,9 @@ $('#unit-selector').on('change', function () {
 	    let value = parseFloat($(this).val()) || 0;
 	
 	    // Limitation des pourcentages entre 0 et 10 %
-	    if (value > 10) {
-	        value = 10;
-	        $(this).val(10);
+	    if (value > 20) {
+	        value = 20;
+	        $(this).val(20);
 	    } else if (value < 0) {
 	        value = 0;
 	        $(this).val(0);
